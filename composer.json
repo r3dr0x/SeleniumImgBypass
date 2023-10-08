@@ -1,0 +1,9 @@
+{
+    "require": {
+        "thiagoalessio/tesseract_ocr": "^2.12",
+         "guzzlehttp/guzzle": "^7.8",
+        "php-webdriver/webdriver": "^1.15",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    }
+}
