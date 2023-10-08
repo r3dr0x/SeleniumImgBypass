@@ -16,7 +16,7 @@ $capabilities->setCapability(ChromeOptions::CAPABILITY, $chromeOptions);
 
 $driver = RemoteWebDriver::create($host, $capabilities);
 
-$driver->get("https://onlineislemler.egm.gov.tr/sayfalar/ihbar.aspx");
+$driver->get("XXXXXXXXXXX");
 
 $imageBase64 = $driver->findElement(WebDriverBy::id("ctl00_ctl37_g_866b0f8a_3abe_4117_93d8_a540423922f8_ctl00_imgKod"))->getAttribute("src");
 
